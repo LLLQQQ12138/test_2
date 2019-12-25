@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/tslt_input"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/query"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tslt_input"
+                android:text="查询"
+                android:textSize="15dp" />
+
+        <TextView
+        android:id="@+id/tslt_en"
+        android:layout_below="@+id/tslt_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textSize="50sp"
+        android:background="#FFFF99"/>
+        <TextView
+            android:id="@+id/tslt_ch"
+            android:layout_below="@+id/tslt_en"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="你好"
+            android:textSize="50sp"
+            android:background="#FFFF99"/>
+        <TextView
+            android:id="@+id/tslt_detail"
+            android:layout_below="@+id/tslt_ch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="..."
+            android:textSize="50sp"
+            android:background="#99FFCC"/>
+
+</RelativeLayout>

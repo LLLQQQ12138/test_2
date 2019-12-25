@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:shrinkColumns="1"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right|center_vertical"
+                android:text="英文："
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_en"
+                android:digits="QWERTYUIOPASDFGHJKLZXCVBNM qwertyuiopasdfghjklzxcvbnm"
+                android:inputType="none"
+                android:singleLine="true" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right|center_vertical"
+                android:singleLine="true"
+                android:text="中文："
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_ch"
+                android:inputType="none" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="right|center_vertical"
+                android:text="明细："
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_detail"
+                android:inputType="none" />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
